@@ -2,8 +2,8 @@ package main
 
 import (
 	_ "github.com/lib/pq"
-	"Gator/internal/config"
-	"Gator/internal/database"
+	"github.com/jkantner2/Gator/internal/config"
+	"github.com/jkantner2/Gator/internal/database"
 	"database/sql"
 	"log"
 	"fmt"

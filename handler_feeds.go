@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"Gator/internal/database"
+	"github.com/jkantner2/Gator/internal/database"
 	"context"
 )
 

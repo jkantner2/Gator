@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"context"
 	"github.com/google/uuid"
-	"Gator/internal/database"
+	"github.com/jkantner2/Gator/internal/database"
 	"time"
 )
 

@@ -1,4 +1,4 @@
-module Gator
+module github.com/jkantner2/Gator
 
 go 1.25.5
 

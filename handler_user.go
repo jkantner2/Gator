@@ -5,7 +5,7 @@ import (
 	"context"
 	"github.com/google/uuid"
 	"time"
-	"Gator/internal/database"
+	"github.com/jkantner2/Gator/internal/database"
 	"log"
 )
 
