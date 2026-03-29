@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"context"
+	"github.com/jkantner2/Gator/internal/database"
 )
 
 func handlerAgg(s *state, cmd command) error {
@@ -14,4 +15,8 @@ func handlerAgg(s *state, cmd command) error {
 	fmt.Printf("RSSFeed: %+v\n", feed)
 	
 	return nil
+}
+
+func scrapeFeeds() {
+	nextFeed, err := 
 }
