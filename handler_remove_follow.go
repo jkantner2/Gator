@@ -6,7 +6,7 @@ import (
 )
 
 func handlerRemoveFollow(s *state, cmd command) error {
-	if len(cmd.arguments) > 1 {
+	if len(cmd.arguments) != 1 {
 		return fmt.Errorf("usage: %s <url>", cmd.command)
 	}
 
